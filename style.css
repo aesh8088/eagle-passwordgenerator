@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: pink;
+    color: red;
+    padding-top: 10px;
+}
+.hel{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+}
+
+.container{
+   box-shadow: 0 0 60px rgb(2, 103, 2);
+   border-radius: 10px;
+   width: 400px;
+   padding: 20px;
+   background-color: rgb(2, 103, 2);
+}
+
+.container h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.container span{
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    margin-top: 40px;
+    border: 2px solid white;
+    margin-right: 70px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.box input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+.box img{
+    width: 30px;
+    cursor: pointer;
+}
+
+#generate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 2, 2, 0.929);
+    color: white;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#generate img{
+   width: 30px;
+}
+
+.bottom{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: pink;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 475px) {
+    .container{
+        width: 300px;
+     }
+
+     .container h1{
+        font-size: 0.9rem;
+    }
+    
+    .box{
+       width: 100%;
+    }
+    
+    .box input{
+        font-size: 1rem;
+    }
+    
+    #generate{
+        font-size: 1rem;
+    }
+    
+    #generate img{
+       width: 20px;
+    }
+}
+
+
+@media (max-width: 342px) {
+    .container{
+        width: 250px;
+     }
+
+     .container h1{
+        font-size: 0.7rem;
+    }
+    
+    .box{
+       width: 100%;
+    }
+    
+    .box input{
+        font-size: 0.7rem;
+    }
+    
+    #generate{
+        font-size: 0.7rem;
+    }
+    
+    #generate img{
+       width: 15px;
+    }
+}
